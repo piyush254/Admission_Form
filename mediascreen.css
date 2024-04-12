@@ -1,0 +1,49 @@
+@media screen and (max-width: 700px) {
+  body{
+    /* background-color: red; */
+    width: 100%;
+    box-sizing: border-box;
+  }
+ .hero{
+  height: 100vh;
+ }
+ .collegeName h1{
+   left: 30%;
+   top: 12px;
+   width: 50%;
+   font-size: 25px;
+ }
+ .collegeName{
+  height: 250px;
+ }
+ .hero{
+  height: auto;
+  margin-bottom: 30px;
+ }
+ .AboutCollege{
+  height: 350px;
+ }
+ .myservices{
+  display: block;
+  width: 98%;
+  margin-top: 20px;
+ }
+ .facilety{
+  height: auto;
+ }
+ .computerScience{
+  width: 100%;
+ }
+ .mechnicalEngineering{
+  width: 100%;
+  height: auto;
+  align-items: center;
+ }
+ footer{
+  margin-top: 8vh;
+ }
+ footer img{
+  top: 50%;
+  /* width: 50%; */
+ }
+}
