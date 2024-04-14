@@ -112,10 +112,10 @@ header {
   color: white;
   background-color: #042c4d;
   text-align: center;
- box-sizing: border-box;
- padding-left: 3%;
- padding-right: 3%;
- padding-top: 3%;
+  box-sizing: border-box;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
 }
 .facilety {
   display: flex;
@@ -123,7 +123,7 @@ header {
   flex-wrap: wrap;
   background-color: #f5f5f5;
   justify-content: center;
-  height: 90vh;
+  height: auto;
   /* display: none; */
 }
 .faciletyh3 {
@@ -151,6 +151,10 @@ header {
 .myservices span {
   /* background-color: red; */
   height: 70px;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* margin-top: 30px; */
 }
 
@@ -179,26 +183,27 @@ header {
 .colleges {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
   padding-left: 1.5%;
   padding-right: 2.5%;
   padding-bottom: 20vh;
 }
 
 .college {
-  height: 300px;
-  width: 380px;
+  height: 380px;
+  width: 400px;
   margin-top: 10px;
-  /* margin-left: 20px; */
-  /* margin-left: 10px; */
-  /* display: inline-block; */
+  background-color: #f5f5f5;
   background-size: cover;
+  /* border: 2px solid black; */
 }
 
 .collegePhoto {
   height: 250px;
-  width: 400px;
-  background-image: url(https://images.pexels.com/photos/7102/notes-macbook-study-conference.jpg?auto=compress&cs=tinysrgb&w=600);
+  width: 396px;
+  /* border: 2px solid black; */
+ 
+  background-size: cover;
 }
 .college p {
   margin: 0px 20px;
@@ -221,7 +226,13 @@ header {
 .AdmissionCriteria ul li {
   color: #767f87;
 }
-
+.mycollegeStates{
+  width: 100%;
+  /* border: 2px solid black; */
+  /* display: none; */
+  box-sizing: border-box;
+  padding-left: 0.75%;
+}
 .DISCIPLINE {
   color: #1a659d;
   text-align: center;
@@ -241,34 +252,44 @@ header {
   justify-content: center;
   height: auto;
   flex-wrap: wrap;
+  /* border: 2px solid black; */
+  padding-bottom: 20px;
 }
-
+.courses p {
+  margin-left: 10px;
+}
 .computerScience {
   height: auto;
-  width: 47%;
+  width: 40%;
   padding-left: 3vw;
   box-sizing: border-box;
+  /* border: 2px solid black; */
   background-color: #f5f5f5;
+  padding-bottom: 40px;
 }
 .coursesHeading {
   color: #1a659d;
   margin-top: 10vh;
+  font-weight: 700;
 }
 .mechnicalEngineering {
   /* border: 2px solid black; */
-  height: 100vh;
-  width: 47%;
+  height: auto;
+  width: 40%;
   padding-left: 3vw;
   box-sizing: border-box;
   background-color: #f5f5f5;
+  padding-bottom: 40px;
+  padding-right: 40px;
 }
 
 .checkboxinput {
-  background-color: red;
+  background-color: orange;
   height: 20px;
   width: 20px;
-  border: 2px sold black;
+  border: 2px solid orange;
   border-radius: 10px;
+  margin-right: 20px;
 }
 .checkbox-round {
   width: 1.3em;
@@ -293,6 +314,17 @@ header {
 
 .courseitems {
   display: block;
+  border: 2px solid orange;
+  border-radius: 7px;
+  margin-top: 10px;
+  display: flex;
+  /* align-items: center; */
+  padding-top: 3%;
+  padding-left: 3%;
+  box-sizing: border-box;
+}
+.courseitems:hover {
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 .phonefixed {
   position: fixed;
@@ -322,38 +354,65 @@ header {
   justify-content: center;
 }
 
-
-footer{
-  /* background-color: red; */
+footer {
+  background-color: #f5f5f5;
   height: 40vh;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   position: relative;
   box-sizing: border-box;
-  padding-left: 3vw;
   padding-top: 3%;
-  padding-right: 3vw;
   z-index: -1;
 }
-.Disclaimer{
+.footnumber {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  font-weight: 600;
+}
+.Disclaimer {
   position: absolute;
   bottom: 10%;
+  width: 100%;
+  text-align: center;
 }
 
-footer img{
+footer img {
   height: 10vh;
   /* display: none; */
   position: relative;
-  top: 30%;
+  /* top: 30%; */
 }
-footer span{
- font-weight: 600;
+footer span {
+  font-weight: 600;
 }
 
-.imgcompany{
+.imgcompany {
   width: 100vw;
 }
-.headerImage{
+.headerImage {
   height: 50px;
+}
+
+.YourCollegeAdvert {
+  /* background-color: pink; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.aboutadmission {
+  /* border: 2px solid black; */
+  width: 45%;
+}
+.yourCollegePicture {
+  /* border: 2px solid black; */
+  width: 45%;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  background-image: url(./photo-1562774053-701939374585.avif);
+  background-size: cover;
 }

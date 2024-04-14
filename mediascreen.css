@@ -44,9 +44,16 @@
  }
  footer img{
   top: 0%;
-  /* width: 50%; */
+  width: 40%;
  }
  .footp{
   display: none;
+ }
+ .m-10{
+  font-size: 25px;
+  width: 100%;
+ }
+ .sizeofP{
+  font-size: 20px;
  }
 }
