@@ -17,11 +17,7 @@ header {
   /* border: 2px solid black; */
 }
 .logoimage {
-  /* border: 1px solid black; */
-  /* width: 150px; */
-  /* height: 30px; */
   margin-left: 10vw;
-  background-image: url(./OIP.jpeg);
   background-size: contain;
   z-index: -1;
 }
@@ -379,12 +375,6 @@ footer {
   text-align: center;
 }
 
-footer img {
-  height: 10vh;
-  /* display: none; */
-  position: relative;
-  /* top: 30%; */
-}
 footer span {
   font-weight: 600;
 }
@@ -401,6 +391,7 @@ footer span {
   display: flex;
   /* align-items: center; */
   justify-content: center;
+  flex-wrap: wrap;
 }
 .aboutadmission {
   /* border: 2px solid black; */
